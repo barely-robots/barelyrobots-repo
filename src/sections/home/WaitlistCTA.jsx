@@ -22,7 +22,7 @@ export function WaitlistCTA() {
 
     try {
       const { error } = await supabase
-        .from('waitlist')
+        .from('Waitlist')
         .insert([{ email: email.toLowerCase().trim() }])
 
       if (error) {
