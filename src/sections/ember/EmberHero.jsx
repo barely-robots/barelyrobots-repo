@@ -19,7 +19,7 @@ export function EmberHero({ active = 'orange', setActive }) {
   const bgOp = useTransform(scrollYProgress, [0, 0.6], [0.4, 0.15])
 
   const colors = {
-    orange: '#9B93D9',
+    orange: '#E8843C',
     white: '#EAE6E2',
     purple: '#9B93D9',
   }
@@ -84,7 +84,7 @@ export function EmberHero({ active = 'orange', setActive }) {
           <h1 style={{
             fontFamily: 'var(--serif)', fontStyle: 'italic',
             fontSize: 'clamp(2.4rem, 5.5vw, 5rem)', lineHeight: 1.05,
-            letterSpacing: '-0.03em', fontWeight: 400,
+            letterSpacing: '-0.03em', fontWeight: 400, color: '#E8843C',
           }}>
             Ember
           </h1>

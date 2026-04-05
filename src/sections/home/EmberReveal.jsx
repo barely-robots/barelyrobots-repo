@@ -7,7 +7,7 @@ import { FadeReveal } from '../../effects/FadeReveal'
 import { EmberSphere } from '../../components/EmberSphere'
 
 const colors = {
-  orange: { color: '#9B93D9', name: 'Warm Orange' },
+  orange: { color: '#E8843C', name: 'Warm Orange' },
   white: { color: '#EAE6E2', name: 'Pearl White' },
   purple: { color: '#9B93D9', name: 'Deep Violet' },
 }
@@ -86,7 +86,7 @@ export function EmberReveal() {
             fontSize: 'clamp(2.2rem, 5vw, 4rem)', lineHeight: 1.1,
             letterSpacing: '-0.03em',
           }}>
-            Meet <span style={{ color: 'var(--a)' }}>Ember</span>
+            Meet <span style={{ color: '#E8843C' }}>Ember</span>
           </div>
         </FadeReveal>
 

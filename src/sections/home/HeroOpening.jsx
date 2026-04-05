@@ -134,7 +134,7 @@ export function HeroOpening() {
             }}
           >
             We believe technology should feel{' '}
-            <span style={{ color: 'var(--a)' }}>warm</span>,{' '}
+            <span style={{ color: '#E8843C' }}>warm</span>,{' '}
             not just intelligent.
           </motion.h1>
 

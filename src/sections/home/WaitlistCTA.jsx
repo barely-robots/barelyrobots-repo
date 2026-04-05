@@ -99,7 +99,7 @@ export function WaitlistCTA() {
           }}
         >
           The future should{' '}
-          <span style={{ color: 'var(--a)' }}>feel</span> warm.
+          <span style={{ color: '#E8843C' }}>feel</span> warm.
         </motion.h2>
 
         {/* Subtext */}

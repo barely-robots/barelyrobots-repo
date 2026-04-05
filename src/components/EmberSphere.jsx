@@ -2,8 +2,8 @@ import { motion } from 'framer-motion'
 
 const sphereData = {
   orange: {
-    bg: 'radial-gradient(circle at 32% 28%, #F8C4A0, #9B93D9 35%, #C45A22 65%, #7A2E10 90%)',
-    shadow: '0 40px 100px rgba(155,147,217,0.25), inset 0 -30px 60px rgba(0,0,0,0.4), inset 0 30px 60px rgba(255,200,160,0.15)',
+    bg: 'radial-gradient(circle at 32% 28%, #F8C4A0, #E8843C 35%, #C45A22 65%, #7A2E10 90%)',
+    shadow: '0 40px 100px rgba(232,132,60,0.25), inset 0 -30px 60px rgba(0,0,0,0.4), inset 0 30px 60px rgba(255,200,160,0.15)',
     ledColor: '#ffffff',
     ledGlow: 'rgba(255,255,255,0.35)',
   },
