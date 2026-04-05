@@ -7,7 +7,7 @@ import { FadeReveal } from '../../effects/FadeReveal'
 import { EmberSphere } from '../../components/EmberSphere'
 
 const colors = {
-  orange: { color: '#E8843C', name: 'Warm Orange' },
+  orange: { color: '#9B93D9', name: 'Warm Orange' },
   white: { color: '#EAE6E2', name: 'Pearl White' },
   purple: { color: '#9B93D9', name: 'Deep Violet' },
 }
@@ -138,15 +138,15 @@ export function EmberReveal() {
                 display: 'inline-flex', alignItems: 'center', gap: 10,
                 fontFamily: 'var(--mono)', fontSize: 10, fontWeight: 500,
                 color: 'var(--a)', letterSpacing: '0.1em', textTransform: 'uppercase',
-                padding: '14px 32px', border: '1px solid rgba(232,132,60,0.2)',
+                padding: '14px 32px', border: '1px solid rgba(155,147,217,0.2)',
                 borderRadius: 100, transition: 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)',
               }}
               onMouseEnter={e => {
-                e.currentTarget.style.borderColor = 'rgba(232,132,60,0.5)'
-                e.currentTarget.style.background = 'rgba(232,132,60,0.05)'
+                e.currentTarget.style.borderColor = 'rgba(155,147,217,0.5)'
+                e.currentTarget.style.background = 'rgba(155,147,217,0.05)'
               }}
               onMouseLeave={e => {
-                e.currentTarget.style.borderColor = 'rgba(232,132,60,0.2)'
+                e.currentTarget.style.borderColor = 'rgba(155,147,217,0.2)'
                 e.currentTarget.style.background = 'transparent'
               }}
             >

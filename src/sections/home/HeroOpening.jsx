@@ -42,7 +42,7 @@ export function HeroOpening() {
         {/* Ambient canvas */}
         <div style={{ position: 'absolute', inset: 0, zIndex: 0, opacity: 0.25 }}>
           <NoiseGradient
-            color="#E8843C" intensity={0.05} speed={0.06}
+            color="#9B93D9" intensity={0.05} speed={0.06}
             style={{ position: 'absolute', inset: 0 }}
           />
         </div>
@@ -82,7 +82,7 @@ export function HeroOpening() {
             transform: 'translateX(-50%)',
             height: 1,
             width: lineW,
-            background: 'linear-gradient(90deg, transparent, rgba(232,132,60,0.12), transparent)',
+            background: 'linear-gradient(90deg, transparent, rgba(155,147,217,0.12), transparent)',
           }}
           initial={{ opacity: 0 }}
           animate={phase >= 2 ? { opacity: 1 } : {}}

@@ -56,8 +56,8 @@ function ConversationCard({ conv, index, inView }) {
             padding: 'clamp(24px, 3vw, 36px)',
             borderRadius: 20,
             border: '1px solid',
-            borderColor: expanded ? 'rgba(232,132,60,0.12)' : 'rgba(255,255,255,0.04)',
-            background: expanded ? 'rgba(232,132,60,0.02)' : 'rgba(255,255,255,0.015)',
+            borderColor: expanded ? 'rgba(155,147,217,0.12)' : 'rgba(255,255,255,0.04)',
+            background: expanded ? 'rgba(155,147,217,0.02)' : 'rgba(255,255,255,0.015)',
             transition: 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)',
             cursor: 'pointer',
           }}
@@ -106,7 +106,7 @@ function ConversationCard({ conv, index, inView }) {
           >
             <div style={{
               paddingLeft: 20,
-              borderLeft: '2px solid rgba(232,132,60,0.15)',
+              borderLeft: '2px solid rgba(155,147,217,0.15)',
             }}>
               <div style={{
                 fontFamily: 'var(--mono)', fontSize: 9, letterSpacing: '0.12em',

@@ -12,7 +12,7 @@ function hexToRgb(hex) {
 }
 
 export function NoiseGradient({
-  color = '#E8843C',
+  color = '#9B93D9',
   intensity = 0.15,
   speed = 0.3,
   scale = 0.003,

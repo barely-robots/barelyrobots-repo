@@ -134,17 +134,17 @@ export default function Nav() {
               style={{
                 fontFamily: 'var(--mono)', fontSize: 10, fontWeight: 500,
                 padding: '8px 20px', borderRadius: 100,
-                border: '1px solid rgba(232,132,60,0.2)', color: 'var(--a)',
+                border: '1px solid rgba(155,147,217,0.2)', color: 'var(--a)',
                 transition: 'all 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
                 letterSpacing: '0.1em', textTransform: 'uppercase',
                 display: 'inline-block',
               }}
               onMouseEnter={e => {
-                e.currentTarget.style.borderColor = 'rgba(232,132,60,0.45)'
-                e.currentTarget.style.background = 'rgba(232,132,60,0.06)'
+                e.currentTarget.style.borderColor = 'rgba(155,147,217,0.45)'
+                e.currentTarget.style.background = 'rgba(155,147,217,0.06)'
               }}
               onMouseLeave={e => {
-                e.currentTarget.style.borderColor = 'rgba(232,132,60,0.2)'
+                e.currentTarget.style.borderColor = 'rgba(155,147,217,0.2)'
                 e.currentTarget.style.background = 'transparent'
               }}
             >

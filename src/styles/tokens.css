@@ -2,11 +2,11 @@
 
 :root {
   /* Core palette */
-  --a: #E8843C;
-  --al: #F0A868;
-  --ad: #D65A20;
+  --a: #9B93D9;
+  --al: #B8B2E8;
+  --ad: #6A5FAF;
   --bg: #060606;
-  --bg-warm: #0A0908;
+  --bg-warm: #08070A;
   --card: #0E0E0E;
   --w: #ffffff;
   --wm: rgba(255,255,255,0.50);
@@ -20,7 +20,7 @@
   --violet-glow: rgba(155, 147, 217, 0.12);
   --pearl: #EAE6E2;
   --pearl-glow: rgba(234, 230, 226, 0.08);
-  --a-glow: rgba(232, 132, 60, 0.12);
+  --a-glow: rgba(155, 147, 217, 0.12);
   --surface: rgba(255,255,255,0.015);
   --surface-hover: rgba(255,255,255,0.04);
   --glass: rgba(255,255,255,0.02);

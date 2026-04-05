@@ -129,7 +129,7 @@ export function ManifestoScroll() {
         {/* Warm background overlay that fades in as you scroll */}
         <motion.div style={{
           position: 'absolute', inset: 0,
-          background: 'radial-gradient(ellipse at center, rgba(232,132,60,0.06), transparent 70%)',
+          background: 'radial-gradient(ellipse at center, rgba(155,147,217,0.06), transparent 70%)',
           opacity: bgOpacity, pointerEvents: 'none',
         }} />
 

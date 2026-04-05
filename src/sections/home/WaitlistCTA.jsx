@@ -66,7 +66,7 @@ export function WaitlistCTA() {
         position: 'absolute', inset: 0, zIndex: 0, opacity: 0.35,
       }}>
         <NoiseGradient
-          color="#E8843C"
+          color="#9B93D9"
           intensity={0.08}
           speed={0.12}
           style={{ position: 'absolute', inset: 0 }}
@@ -140,8 +140,8 @@ export function WaitlistCTA() {
                 fontWeight: 300, letterSpacing: '0.02em',
               }}
               onFocus={e => {
-                e.currentTarget.style.borderColor = 'rgba(232,132,60,0.3)'
-                e.currentTarget.style.background = 'rgba(232,132,60,0.03)'
+                e.currentTarget.style.borderColor = 'rgba(155,147,217,0.3)'
+                e.currentTarget.style.background = 'rgba(155,147,217,0.03)'
               }}
               onBlur={e => {
                 e.currentTarget.style.borderColor = 'rgba(255,255,255,0.06)'
@@ -163,7 +163,7 @@ export function WaitlistCTA() {
                 onMouseEnter={e => {
                   if (!loading) {
                     e.currentTarget.style.background = 'var(--al)'
-                    e.currentTarget.style.boxShadow = '0 4px 24px rgba(232,132,60,0.2)'
+                    e.currentTarget.style.boxShadow = '0 4px 24px rgba(155,147,217,0.2)'
                   }
                 }}
                 onMouseLeave={e => {

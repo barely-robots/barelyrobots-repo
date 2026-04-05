@@ -58,8 +58,8 @@ function MomentCard({ m, index, inView }) {
         gap: 16,
       }}
       onMouseEnter={e => {
-        e.currentTarget.style.borderColor = 'rgba(232,132,60,0.12)'
-        e.currentTarget.style.background = 'rgba(232,132,60,0.02)'
+        e.currentTarget.style.borderColor = 'rgba(155,147,217,0.12)'
+        e.currentTarget.style.background = 'rgba(155,147,217,0.02)'
       }}
       onMouseLeave={e => {
         e.currentTarget.style.borderColor = 'rgba(255,255,255,0.04)'
@@ -210,8 +210,8 @@ function MomentCardWithView({ m, index }) {
           gap: 16,
         }}
         onMouseEnter={e => {
-          e.currentTarget.style.borderColor = 'rgba(232,132,60,0.12)'
-          e.currentTarget.style.background = 'rgba(232,132,60,0.02)'
+          e.currentTarget.style.borderColor = 'rgba(155,147,217,0.12)'
+          e.currentTarget.style.background = 'rgba(155,147,217,0.02)'
         }}
         onMouseLeave={e => {
           e.currentTarget.style.borderColor = 'rgba(255,255,255,0.04)'

@@ -19,7 +19,7 @@ export function EmberHero({ active = 'orange', setActive }) {
   const bgOp = useTransform(scrollYProgress, [0, 0.6], [0.4, 0.15])
 
   const colors = {
-    orange: '#E8843C',
+    orange: '#9B93D9',
     white: '#EAE6E2',
     purple: '#9B93D9',
   }

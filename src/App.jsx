@@ -41,7 +41,7 @@ function AppInner() {
 
   return (
     <>
-      <ParticleField count={250} color="#E8843C" mouseInfluence={true} />
+      <ParticleField count={250} color="#9B93D9" mouseInfluence={true} />
       <Cursor />
       <div className="grain" />
       <Nav />

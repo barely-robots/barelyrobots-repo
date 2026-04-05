@@ -66,7 +66,7 @@ export function EmberCTA() {
             }}
             onMouseEnter={e => {
               e.currentTarget.style.background = 'var(--al)'
-              e.currentTarget.style.boxShadow = '0 6px 32px rgba(232,132,60,0.2)'
+              e.currentTarget.style.boxShadow = '0 6px 32px rgba(155,147,217,0.2)'
             }}
             onMouseLeave={e => {
               e.currentTarget.style.background = 'var(--a)'

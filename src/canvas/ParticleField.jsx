@@ -84,7 +84,7 @@ class Particle {
   }
 }
 
-export function ParticleField({ count = 300, color = '#E8843C', mouseInfluence = true }) {
+export function ParticleField({ count = 300, color = '#9B93D9', mouseInfluence = true }) {
   const mobile = useMobile();
   const reduced = useReducedMotion();
   const mousePos = useMousePosition();
